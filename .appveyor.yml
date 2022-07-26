@@ -1,3 +1,4 @@
+
 image: Ubuntu  # образ для сборки
 
 stack: jdk 11  # версия JDK
@@ -5,6 +6,7 @@ stack: jdk 11  # версия JDK
 branches:
   only:
     - master  # ветка git
+    - chmod +x gradlew
 
 build: off  # будем использовать свой скрипт сборки
 
